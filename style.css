@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(209, 80, 241);
+    padding: 28px;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    background-color: rgb(43, 21, 65);
+}
+
+img {
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input {
+    margin-top: 20px;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.submit {
+    width: 25%;
+    background-color: rgb(35, 161, 211);
+    color: cornsilk;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: rgb(41, 207, 207);
+}
